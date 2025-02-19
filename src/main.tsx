@@ -5,7 +5,7 @@ import CancionesPage from './pages/CancionesPage'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import NuevaCancionPage from './pages/NuevaCancionPage'
-
+//base
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter basename='/examen'>
