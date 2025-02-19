@@ -28,9 +28,11 @@ const CancionesPage = () => {
     return (
         <div className="container">
             <h1>Canciones</h1>
-            <Link to="/add" className="btn btn-primary">Nueva Cancion</Link>
-            <CancionesList canciones= {listadoCanciones}/>
-            <Footer />
+            <div className="mt-2">
+                <Link to="/add" className="btn btn-primary">Nueva Cancion</Link>
+                <CancionesList canciones= {listadoCanciones}/>
+                <Footer />
+            </div>
         </div>
     )
 }
