@@ -9,6 +9,7 @@ import NuevaCancionPage from './pages/NuevaCancionPage'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter basename='/examen'>
+    <div></div>
       <Routes>
         <Route path="/" element={<CancionesPage />} />
         <Route path='/add' element= {<NuevaCancionPage/>}/>
